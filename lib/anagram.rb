@@ -8,7 +8,7 @@ attr_accessor:word
   
  def match(array)
   array.select do |array|
-  @word.split("").sort == array.split("").sort
+  @word.split("") == array.split("")
   end 
  end  
 end 
